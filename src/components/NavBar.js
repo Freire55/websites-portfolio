@@ -11,8 +11,8 @@ function NavBar() {
   function toggleDarkMode() {
     setDarkMode(!darkMode);
     const body = document.body;
-    body.style.backgroundColor = darkMode ? "#fff" : "#000";
-    body.style.color = darkMode ? "#000" : "#fff";
+    body.style.backgroundColor = darkMode ? "#fff" : "#1f1f29";
+    body.style.color = darkMode ? "#1f1f29" : "#fff";
   }
   return (
     <>
